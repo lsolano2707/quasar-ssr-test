@@ -11,27 +11,30 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "dev:ssr": "quasar dev -m ssr",
+    "dev:ssr2": "wrangler dev",
     "build": "quasar build",
-    "build:ssr": "quasar build -m ssr"
+    "build:ssr": "quasar build -m ssr",
+    "publish": "wrangler publish"
   },
   "dependencies": {
-    "axios": "^1.6.8",
     "@quasar/extras": "^1.16.11",
+    "axios": "^1.6.8",
     "quasar": "^2.15.2",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@quasar/app-vite": "^1.8.0",
+    "@types/node": "^20.12.5",
     "@typescript-eslint/eslint-plugin": "^7.5.0",
     "@typescript-eslint/parser": "^7.5.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.24.0",
-    "eslint-config-prettier": "^8.10.0",
-    "prettier": "^2.8.8",
-    "@types/node": "^20.12.5",
-    "@quasar/app-vite": "^1.8.0",
     "autoprefixer": "^10.4.19",
-    "typescript": "^5.4.4"
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-vue": "^9.24.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.4.4",
+    "wrangler": "^3.48.0"
   },
   "engines": {
     "node": "^20 || ^18 || ^16 || ^14.19",
