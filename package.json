@@ -14,7 +14,7 @@
     "dev:ssr2": "wrangler dev",
     "build": "quasar build",
     "build:ssr": "quasar build -m ssr",
-    "publish": "wrangler publish"
+    "deploy": "wrangler deploy"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.11",
