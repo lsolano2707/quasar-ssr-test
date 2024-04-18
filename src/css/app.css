@@ -1,1 +1,12 @@
 /* app global css */
+.home {
+  h1 {
+    color: red;
+    &:hover {
+      color: green;
+    }
+  }
+  h2 {
+    color: blue;
+  }
+}

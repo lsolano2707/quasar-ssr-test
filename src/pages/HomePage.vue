@@ -1,6 +1,7 @@
 <template>
-  <q-page class="row">
+  <q-page class="row home">
     <h1>Home</h1>
+    <h2>Home 2</h2>
   </q-page>
 </template>
 
